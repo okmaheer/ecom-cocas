@@ -1,0 +1,135 @@
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+.Tiles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: rgba(0, 0, 0, .4);
+    -webkit-animation: fadein 500ms;
+            animation: fadein 500ms;
+}
+
+.Tiles small {
+    font-size: 10px;
+}
+
+.Tiles ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+    clear: both;
+    position: relative;
+}
+
+.Tiles li {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    height: 100%;
+}
+
+.Tiles li:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    height: 100%;
+    width: 1px;
+    background: rgba(255, 255, 255, .8);
+}
+
+.Tiles li:last-child:after {
+    display: none;
+}
+
+.Tiles__content {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Tiles__measurement {
+    height: 1px;
+    background: rgba(255, 255, 255, .6);
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 5px;
+    right: 5px;
+}
+
+.Tiles__measurement:before, .Tiles__measurement:after {
+    content: '';
+    display: block;
+    width: 0;
+    border: solid rgba(255, 255, 255, 1);
+    border-width: 0 1px 1px 0;
+    padding: 2px;
+    margin-top: -2px;
+    position: absolute;
+}
+
+.Tiles__measurement:before {
+    left: 0;
+    -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+            transform: rotate(135deg);
+}
+
+.Tiles__measurement:after {
+    right: 0;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+
+.Tiles__measurement span {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+}
+
+.Tiles__vertical-content {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: relative;
+    height: 100%;
+    padding-top: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.Tiles__vertical-content span {
+    -webkit-transform:  translateX(-50%) translateY(-50%) rotate(90deg);
+        -ms-transform:  translateX(-50%) translateY(-50%) rotate(90deg);
+            transform:  translateX(-50%) translateY(-50%) rotate(90deg);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 200px;
+    text-align: center;
+
+}

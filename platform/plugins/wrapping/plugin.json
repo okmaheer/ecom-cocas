@@ -1,0 +1,9 @@
+{
+    "name": "Wrapping",
+    "namespace": "Botble\\Wrapping\\",
+    "provider": "Botble\\Wrapping\\Providers\\WrappingServiceProvider",
+    "author": "Botble Technologies",
+    "url": "https://botble.com",
+    "version": "5.8",
+    "description": "wrappings"
+}

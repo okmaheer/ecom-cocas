@@ -1,0 +1,4 @@
+Product Name,Description,Slug,Categories,Status,Is Featured?,Brand,Product collections,Labels,Tax,Images,Price,Product Attributes,Import type,Is Variation Default?,With storehouse management,Quantity,Allow checkout when out of stock,Stock status,Sale Price,Start date sale price,End date sale price,Weight,Length,Wide,Height,Color
+Bread - Sour Sticks With Onion,"In hac habitasse platea dictumst., diam.",,15,published,1,6,,,VAT,,67.45,"Size,Color",product,,,,,,,,,,,,,"Black,Red,White"
+Bread - Sour Sticks With Onion,,,,published,1,6,,,VAT,,67.45,"Size:S,Color:Black",variation,0,1,20,1,in_stock,50,06-08-2021 00:00,06-09-2021 23:59,20,3,4,5,"Black,Red,White"
+Bread - Sour Sticks With Onion,,,,published,1,6,,,VAT,,66.45,"Size:S,Color:Green",variation,1,,,,,,,,30,4,5,6,"Black,Red,White"
