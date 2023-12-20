@@ -19,7 +19,7 @@ class FlashSaleRequest extends Request
         return [
             'name'                      => 'required',
             'end_date'                  => 'required',
-            'products_extra.*.price'    => 'required|numeric|min:1',
+            'products_extra.*.price'    => 'required|numeric',
             'products_extra.*.quantity' => 'required|numeric',
             'status'                    => Rule::in(BaseStatusEnum::values()),
         ];

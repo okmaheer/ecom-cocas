@@ -1,4 +1,4 @@
-{{-- <!-- START SECTION SHOP -->
+<!-- START SECTION SHOP -->
 <div class="section pt-0 pb-0">
     <div class="container">
         <div class="row">
@@ -15,4 +15,4 @@
         </div>
     </div>
 </div>
-<!-- END SECTION SHOP --> --}}
+<!-- END SECTION SHOP -->

@@ -12,7 +12,7 @@
         "ext-curl": "*",
         "ext-json": "*",
         "ext-zip": "*",
-        "botble/menu": "*",
+        "botble/menu": "*@dev",
         "botble/page": "*@dev",
         "botble/platform": "*@dev",
         "botble/plugin-management": "*@dev",
@@ -41,8 +41,7 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/",
-            "Botble\\Menu\\": "vendor/botble/menu/"
+            "Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
